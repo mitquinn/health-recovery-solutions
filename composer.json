@@ -1,0 +1,13 @@
+{
+    "name": "mitquinn/health-recovery-solutions",
+    "description": "Coding Challenge for Health Recovery Solutions",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Mitchell Quinn",
+            "email": "mdq2@live.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
