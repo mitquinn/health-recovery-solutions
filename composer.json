@@ -1,13 +1,32 @@
 {
     "name": "mitquinn/health-recovery-solutions",
     "description": "Coding Challenge for Health Recovery Solutions",
-    "type": "project",
+    "type": "library",
     "authors": [
         {
             "name": "Mitchell Quinn",
             "email": "mdq2@live.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "Mitquinn\\Hrs\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Mitquinn\\Hrs\\Tests\\": "tests/"
+        }
+    },
     "minimum-stability": "stable",
-    "require": {}
+    "require": {
+        "php": "^7.4",
+        "tightenco/collect": "^7.6",
+        "psr/http-message": "^1.0",
+        "guzzlehttp/psr7": "^1.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.1",
+        "ext-json": "*"
+    }
 }
